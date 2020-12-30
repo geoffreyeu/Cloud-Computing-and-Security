@@ -1,0 +1,11 @@
+Cloud Computing Fall 2020
+Submission: Geoffrey Eu
+Assingment: pa1
+Explanation and Solution:
+In order to figure out how many times map method is invoked one can simply
+utilize wordcount in order to "count" the number of times that the method
+is called. Starting in the map method we create a string variable called map
+which is initalized to "map". From there we then place a write command in the
+correct loop. Thus, everytime the method is invoked the program will write "map"
+to the output file. Reduce will total the numbers for us and then in the output
+file we will see (map  258). Which alligns with the answer provided for us.
